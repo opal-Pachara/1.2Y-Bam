@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ครบรอบ 1.2 ปีของเรา ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Screen 1: Envelope -->
+    <div id="screen-1" class="screen active">
+        <h1 id="main-title">มีจดหมายฉบับหนึ่งอยากให้จีราภาอ่าน 💌</h1>
+        <p id="sub-title" class="subtitle">แต่มีข้อแม้นิดเดียว...</p>
+        
+        <div id="envelope-wrapper" class="envelope-wrapper">
+            <div class="envelope-back"></div>
+            <div class="envelope-letter"></div>
+            <div class="envelope-front"></div>
+            <div class="envelope-flap"></div>
+            <div class="heart-lock">❤️</div>
+        </div>
+
+        <button id="btn-love" class="btn-love">รัก ❤️</button>
+        <p id="hint-text" class="hint-text">กดก่อนนะ แล้วเค้าจะให้เปิดจดหมาย</p>
+    </div>
+
+    <!-- Screen 2: Letter with GIF -->
+    <div id="screen-3" class="screen">
+        <div class="final-letter">
+            <img src="assets/open-letter.gif" alt="Opening Letter Animation" class="letter-gif" onerror="this.src='https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif'">
+            <p>ถึงจีราภา🐱 💌</p>
+            <br>
+            <p>เผลอแป๊บเดียว เราเดินทางมาด้วยกันตั้ง 1.2 ปีแล้วนะคะ</p>
+            <p>ขอบคุณที่เข้ามาเป็นความน่ารักในทุก ๆ วันของเค้า<br>ขอบคุณที่อยู่ข้างกัน ทั้งวันที่ดีและวันที่ไม่ค่อยดี</p>
+            <p>เค้าอาจไม่ได้เก่งเรื่องพูดหวาน ๆ<br>แต่เค้าอยากให้รู้ว่า...</p>
+            <p class="highlight">เค้ารักเธอนะ ❤️</p>
+            <p>และอยากมีเธออยู่ในทุก ๆ วันต่อจากนี้เลย</p>
+            <br>
+            <p>สุขสันต์วันครบรอบ 1.2 ปีนะ<br>รักที่สุดเลย 💕</p>
+            
+            <div class="divider"></div>
+            
+            <p class="small-text">อยู่ด้วยกันไปนาน ๆ นะ ❤️</p>
+            <button id="btn-hug" class="btn-hug">กอดหนึ่งที 🤍</button>
+            <p id="hug-reply" class="hug-reply">กอดแล้วนะ 🫂💕</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
